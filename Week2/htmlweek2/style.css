@@ -1,0 +1,109 @@
+body{
+font-family: comic -apple-system;
+background-color: rgb(179, 240, 234);
+}
+h1{
+text-align: center;
+color:rgba(128, 0, 128, 0.726);
+font-size: 70px;
+font-family: 'Courier New', Courier, monospace;
+}
+h1:hover{
+    font-size: 80px;
+
+}
+
+h2{
+color: rgba(128, 0, 128, 0.726);
+font-size: 30px;
+
+font-family: 'Courier New';
+}
+h3{
+    font-size: 17px;
+    color: black;
+
+}
+img{
+border-color: rgba(128, 0, 128, 0.726);
+border-style: solid;
+max-width: 200px;
+margin-left: auto;
+  margin-right: auto;
+  display: block; /* to center the img*/
+  border-radius: 10px;
+}
+p:hover{
+font-family: cursive;
+text-align: center;
+color: rgba(128, 0, 128, 0.726);
+}
+
+.grid-item{   
+    border: 5px inset    black;
+   border-radius: 10px;
+   padding: 20px;
+   width: 250px;
+   height: 500px;
+   margin: 20px;
+   text-align: center;}
+/*grid with floats*/
+#grid-floats{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    grid-template-columns: 2fr 1fr 1fr;
+
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+}
+
+ 
+
+
+
+@media (min-width: 250px) {  
+
+
+/*#grid-floats .grid-item:nth-child(1) {
+    grid-column: 1 / span 2;
+    
+ }
+ */
+     
+  
+ 
+
+/*   grid with flex*/
+/*#grid-flex{
+  
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+*/
+
+
+#grid-flex{   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        }
+        
+        #grid-flex :first-child {
+            flex :1;
+         }
+
+#grid-flex.grid-item{
+    width: 50px;  
+    height: 50px; 
+    margin: auto;  
+    
+  }
+
+
+  #grid-floats > li:first-child {
+    width: 80%;}
+  
