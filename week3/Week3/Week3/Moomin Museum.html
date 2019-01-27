@@ -1,0 +1,286 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Page Title</title>
+    <link rel="stylesheet" type="text/css"  href="moomin.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <img src="logo-muumimuseo-en.png"  >
+</head>
+<body>
+  
+    <nav role="navigation">
+
+        <div id="menuToggle">
+
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+
+          <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+          <ul id="menu">
+                <img src="logo-muumimuseo-en.png">
+<div> en fi ja ru sv </div>
+            <a href="#"><li>Exhibitions</li></a>
+            <a href="#"><li>Visit us</li></a>
+            <a href="#"><li>News</li></a>
+            <a href="#"><li>Mooomin museum</li></a>
+            <a href="#"><li>Restaurants</li></a>
+            <a href="#"><li>shop</li></a>
+            <a href="#"><li>Contact us</li></a>
+
+
+
+          </ul>
+        </div>
+      </nav>
+        </div>
+    </div>
+               <div id="fotos" >
+              <img src="banner.jpg" >
+               <img src="2.jpg" height="300" width="800" >
+               <div class="text-block">
+
+
+                  <h2><span style="color:green">The world’s only Moomin Museum</span><br>
+                  in Tampere, Finland!</h2>
+               </div>
+    
+               </div> 
+                <p>2018: Tue-Fri 9am-7pm, Sat-Sun 11am-6pm. 2019: Tue-Wed 9am-5pm, Thu-Fri 9am-7pm, Sat-Sun 10am-5pm,<br> closed Mon / Adults 12€, children 6 € / Tampere Hall, Yliopistonkatu 55, Tampere, Finland</p>
+              
+              <div class="exhibi" style="background-color:rgb(51, 51, 51)">
+                <img src="silmat-oikea.gif">
+                <h3 style="margin-right:200px;">Exhibitions</h3>
+                <img src="silmat-vasen.gif">
+
+              </div>
+              <br> 
+              
+<div class="row">
+    <div class="column">
+        <img class="mySlides" src="m-155-web-v_285px.jpg" >
+        <img class="mySlides" src="A7A5306-570px.jpg" >
+        <img class="mySlides" src="A7A5931-570-px.jpg" >
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      <div class="column">
+        <img id="pic1" src="UskoLaukkanen_etusivulle.jpg" height=200" width="200">
+
+      </div>
+      <div class="column">
+          <img id="pic2"src="joulukoristekuva1-web.jpg">
+  
+        </div>
+        
+</div>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    
+<div class="row">
+  <div class="column">
+    <h2>What Happens Next?  </h2>
+    <div>Where did the ancestors of the Moomins live? What was Moominpappa’s stormy youth like? What do Hattifatteners do during a thunderstorm? These and many other secrets are revealed in What Happens Next?.
+<br>
+        The Moomin Museum’s first permanent exhibition retells the entire story of the Moomins, starting from the Great Flood and the mad midsummer’s floating theatre to the puzzle of the lighthouse and the mysterious disappearance of the Moomins one grey November day</div>
+  </div>
+  <div class="column">
+    <h2>Fairytale Cabin</h2>
+    <div>Fairytale Cabin – The Illustrations of Usko Laukkanen 15.12.2018 – 31.3.2019 in the Observatory.</div>
+  </div>
+  <div class="column">
+    <h2>
+       <span style="color:green"> 06/01/2019</span><br>
+        Christmas decoration workshop</h2>
+        <div>
+            Come and make your own decoration for the Christmas tree in Moomin style! Workshop open every day from noon to 4pm until 6th January [...]</div>
+  </div>
+
+</div>
+
+<div class="exhibi" style="background-color:rgb(49, 49, 49)">
+    <img src="silmat-oikea.gif">
+    <h3 style="margin-right:400px;">News</h3>
+    <img src="silmat-vasen.gif" style="margin-right=80px;">
+
+  </div>
+  
+  <div class="mydiv" style="background-color: rgb(102, 165, 173)" >
+    <h2  style="background-color: rgb(102, 165, 173)">Don't hibernate!</h2>
+   
+    
+   You are invited to attend English readings of The Fir Tree at 3 pm <br>during opening hours from 27.12.18 to 6.1.2019.
+      <h1 style="color:white">01 / 12 / 2018
+</h1>
+
+        <h2 style="background-color: rgb(102, 165, 173)">
+            Christmas decoration workshop</h2>
+            The Moomins didn't know what Christmas is, so they decorated the Christmas tree in their own way. In the Studio you too can make a decoration for your tree in your own style. The Christmas decoration workshop is open every day from noon to 4pm until 6th January. Merry Christmas!
+
+    </div>
+
+  </div>
+
+  
+      
+    
+   <br>
+  
+  <div class="mytext" style="color:black" >   All things are so very uncertain and that's exactly what's<br> makes me reassured.</div>
+<br> 
+<br>
+  
+  <div class="mytext" style="color:green">Too-ticky, Moominland Midwinter</div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="column" style="margin-right: 80px" >
+      <h2>Tampere Hall Shop
+        </h2>
+      
+          The shop is open to museum guests and all visitors at Tampere Hall. The range includes exciting Moomin souvenirs, design and music, books written and illustrated by Tove Jansson, Tampere souvenirs, and classic Finnish design brands.
+
+          You will additionally find hand-made crafts by Finnish designers as well as music by the Tampere Philharmonic Orchestra, which is also based at Tampere Hall. Here you can buy Moomin postcards and stamps and have your letters stamped with a special Moomin postmark.
+    
+    </div>
+    <div class="column">
+      <img src="Kuvagalleria-5.jpg" height="300" width="300" >
+    </div>
+  </div>
+    
+  <div class="mytext" style="color:black" >  ‘Well, it’ll be another nice long day tomorrow,’ said<br> Moominmamma. ‘And it’s all yours from beginning to end.<br> Now isn’t that a lovely thought!’</div>
+<br> 
+<br>
+  
+  <div class="mytext" style="color:green">Moominmamma, from Moominpappa at Sea
+    </div>
+    <br>
+    <div class="row">
+      <div class="column">
+        <img src="Photo-Iina-Martiskainen-web-1024x683.jpg" height="200" width="300">
+      </div>
+      <div class="column" style="margin-left:80px">
+          Take a seat and enjoy a quiet moment with one of Jansson’s<br> books in the Moomin Museum Reading Room. In our<br> Reading Room you will find Moomin books in over 20<br> languages, along with other books by and about Jansson.<br> The collection features historical rarities and fresh copies of<br> every new Moomin edition.
+      </div>
+    </div>
+    <br>
+      <div class="row">
+        <div class="column" >
+          <img src="tampere-hall-en.png" width="300">
+
+        </div>
+        <div class="column"><img src="moomin-museum-en.png" width="300">
+</div>
+        <div class="column"><img src="footer-logo-tampere-filharmonia.png" width="300">
+        </div>
+
+      </div>
+<br>
+<br>
+<br>
+<div class="row" style="background-color:rgb(10, 48, 18)">
+  <div class="comulmn" style="color:seashell">
+    <h2 style="background-color:rgb(10, 48, 18)">MOOMIN MUSEUM</h2>
+    Tampere Hall
+    <br>
+Yliopistonkatu 55<br>
+
+33100 Tampere, Finland<br>
+
++358 3 243 4111
+<div style="border: solid" ><a href="#"> Contact us</a></div>
+<div style="border: solid" ><a href="#"> Feedback</a></div>
+
+  </div>
+  <div class="column" style="color:seashell">
+
+
+      <h2 style="background-color:rgb(10, 48, 18)">EXHIBITIONS</h2>
+      What Happens Next?
+Tove Jansson and the Moomins
+Studio
+The Moomin Museum Reading Room
+
+  </div>
+  <div class="comulmn" style="color:seashell">    <h2 style="background-color:rgb(10, 48, 18)">VISIT US</h2>
+    Guides<br>
+Groups<br>
+The Moomin Museum Reading Room<br>
+Restaurants<br>
+Tampere Hall Shop<br>
+  </div>
+  <div class="comulmn" style="color:seashell">    <h2 style="background-color:rgb(10, 48, 18)">MOOMIN MUSEUM</h2>
+    About Tove Jansson<br>
+About the collection<br>
+  </div>
+  <div class="comulmn"  style="color:seashell">    <h2 style="background-color:rgb(10, 48, 18)">CONTACT US</h2>
+    Museum personnel<br>
+For the media<br>
+Links<br>
+TAMPERE HAL<br>
+
+  </div>
+  <div class="comulmn"  style="color:seashell">    <h2 style="background-color:rgb(10, 48, 18)">TAMPERE HALL</h2>
+  </div>
+
+
+</div>
+
+<div class="row">
+  <div class="column">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+  </div>
+  <div class="column" style="margin-left:50px;margin-right:50px;margin-top: 10px;">
+    <img src="footer-logo-muumimuseo-center.png">
+  </div>
+  <br>
+  <div class="column" style="margin-left:5Opx;"">© Muumimuseo 2017 I © Moomin Characters TM
+    <img src="vaakuna_tampere_muumimuseo.png" style="margin-right:100px;margin-top: 10px;">
+  </div>
+
+
+</div>
+
+              </body>
+
+
+</html>
