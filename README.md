@@ -1,2 +1,2 @@
 # Homework week1
-https://asmaeezziani.github.io/Asmae/week1/mycv.html
+https://asmaeezziani.github.io/hyf-html-css-/week1/mycv.html
