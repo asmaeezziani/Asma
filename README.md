@@ -5,5 +5,8 @@ https://asmaeezziani.github.io/hyf-html-css/week1/mycv.html
 
 https://asmaeezziani.github.io/hyf-html-css/Week2/htmlweek2/index.html
 
+# Homework week3
+
+https://asmaeezziani.github.io/hyf-html-css/week3/Moomin Museum.html 
 
 
